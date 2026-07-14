@@ -19,9 +19,14 @@ The application allows users to search for Bollywood songs and receive recommend
 * Creating responsive user interfaces with HTML, CSS, and JavaScript
 * Managing and organizing a complete full-stack project
 
+ 📸 Screenshots
+ Home Page
+[Home Page](screenshots/homepage.png)
+Song Recommendations
+[Recommendations](screenshots/recommendations.png)
 
 
- 🤖 AI-Assisted Development
+ AI-Assisted Development
 
 This project was developed with the assistance of AI tools, primarily Claude.
 
