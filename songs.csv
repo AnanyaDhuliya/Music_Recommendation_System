@@ -1,0 +1,251 @@
+title,artist,genre_id,tempo,mood_id
+Tum Hi Ho,Arijit Singh,1,72,5
+Gehra Hua,Vishal Mishra,2,68,4
+Tera Ban Jaunga,Akhil Sachdeva,1,74,5
+Shayad,Arijit Singh,1,80,5
+Kesariya,Arijit Singh,1,126,5
+Raataan Lambiyan,Jubin Nautiyal,1,84,5
+Mann Bharrya,B Praak,2,66,4
+Filhaal,B Praak,2,70,4
+Dil Chahte Ho,Jubin Nautiyal,1,88,5
+Baarish,Atif Aslam,1,76,5
+Hawayein,Arijit Singh,1,82,5
+Phir Bhi Tumko Chaahunga,Arijit Singh,1,74,5
+Ik Vaari Aa,Arijit Singh,2,68,4
+Channa Mereya,Arijit Singh,2,78,4
+Ae Dil Hai Mushkil,Arijit Singh,2,84,4
+Agar Tum Saath Ho,Arijit Singh,2,66,4
+Kabira,Tochi Raina,6,90,1
+Tum Se Hi,Mohit Chauhan,1,72,5
+Ilahi,Arijit Singh,5,110,2
+Sooraj Dooba Hain,Arijit Singh,1,94,5
+Galliyan,Ankit Tiwari,2,70,4
+Sun Raha Hai Na Tu,Arijit Singh,2,68,4
+Tere Bina,Arijit Singh,1,76,5
+Teri Jhuki Nazar,Shafqat Amanat Ali,6,80,5
+Soch Na Sake,Arijit Singh,1,92,5
+Pehla Nasha,Udit Narayan,1,84,5
+Tujh Mein Rab Dikhta Hai,Roop Kumar Rathod,1,76,5
+Kal Ho Na Ho,Sonu Nigam,2,80,4
+Main Agar Kahoon,Sonu Nigam,1,78,5
+Yeh Dil Deewana,Sonu Nigam,1,96,2
+Dard Dilo Ke,Mohammad Irfan,2,68,4
+Suno Na Sangemarmar,Arijit Singh,1,74,5
+Tere Sang Yaara,Atif Aslam,1,80,5
+Humnava Mere,Jubin Nautiyal,2,72,4
+Kuch Toh Hai,Armaan Malik,1,86,5
+Main Rahoon Ya Na Rahoon,Armaan Malik,2,70,4
+Bol Do Na Zara,Armaan Malik,1,82,5
+Woh Pehli Baar,Armaan Malik,1,88,5
+Jab Tak,Armaan Malik,2,66,4
+Dheere Dheere Se,Yo Yo Honey Singh,3,108,6
+Badtameez Dil,Benny Dayal,3,128,6
+Sooraj Ki Baahon Mein,Shafqat Amanat Ali,1,84,5
+Aashiqui Mein Teri,Arijit Singh,1,78,5
+Khamoshiyan,Arijit Singh,2,64,4
+Meri Aashiqui,Jubin Nautiyal,2,72,4
+Chahun Main Ya Naa,Arijit Singh,1,80,5
+Khairiyat,Arijit Singh,2,74,4
+Bekhayali,Sachet Tandon,2,130,3
+Tera Fitoor,Arijit Singh,1,76,5
+Judaai,Arijit Singh,2,68,4
+Humari Adhuri Kahani,Arijit Singh,2,66,4
+Woh Lamhe,Atif Aslam,2,80,4
+Tu Jaane Na,Atif Aslam,2,72,4
+Dooba Dooba,Silk Route,2,70,4
+Pee Loon,Mohit Chauhan,6,88,1
+Tere Liye,Atif Aslam,1,76,5
+Ek Villain Title,Arijit Singh,2,78,4
+Zaroorat,Anurag Saikia,1,80,5
+Hamari Adhuri Kahani,Jubin Nautiyal,2,64,4
+Tujhe Kitna Chahne Lage,Arijit Singh,2,74,4
+Pachtaoge,B Praak & Arijit Singh,2,68,4
+Koi Mil Gaya,Udit Narayan,1,92,2
+Ek Ladki Ko Dekha,Kumar Sanu,1,88,5
+Aaj Phir,Arijit Singh,2,74,4
+Dilbaro,Harshdeep Kaur,2,68,4
+Dil Diyan Gallan,Atif Aslam,1,82,5
+Raeesa,Arijit Singh,6,90,1
+Enna Sona,Arijit Singh,1,84,5
+Dil Ka Telephone,Dhvani Bhanushali,3,118,6
+Manike,Yohani,3,112,6
+Butta Bomma,Armaan Malik,5,104,2
+Raahu,Sachet Parampara,1,80,5
+Kalank,Arijit Singh,6,88,4
+Teri Mitti,B Praak,4,72,4
+Sandese Aate Hai,Sonu Nigam,4,76,4
+Ae Watan,Arijit Singh,4,84,4
+Maa,Taraannum Mallik,4,70,4
+Luka Chuppi,Lata Mangeshkar,4,78,1
+Tujhse Naraz Nahi,Lata Mangeshkar,1,72,5
+Didi Tera Devar,Lata Mangeshkar,3,122,6
+Chaiyya Chaiyya,Sukhwinder Singh,6,140,6
+Rang De Basanti,Daler Mehndi,5,136,6
+Jai Ho,Sukhwinder Singh,4,138,6
+Swades,Udit Narayan,4,82,1
+Vande Mataram,AR Rahman,4,96,3
+Roja,AR Rahman,4,80,1
+Dil Se Re,AR Rahman,6,132,6
+Khwaja Mere Khwaja,AR Rahman,6,76,1
+Kun Faya Kun,AR Rahman,6,88,1
+Tum Tak,AR Rahman,6,84,1
+Nimbooda,Kavita Krishnamurthy,3,128,6
+Nagada Sang Dhol,Shreya Ghoshal,3,140,6
+Ghoomar,Shreya Ghoshal,3,128,6
+Yeh Ishq Haaye,Shreya Ghoshal,1,86,5
+Sunn Raha Hai Na Tu,Shreya Ghoshal,2,68,4
+Teri Ore,Shreya Ghoshal,1,80,5
+In Dino,Shreya Ghoshal,1,78,5
+Tere Naam,Udit Narayan,2,72,4
+Saathiya,Sonu Nigam,1,90,5
+Dheere Dheere,Shreya Ghoshal,1,76,5
+Dilbaro,Shreya Ghoshal,2,68,4
+Ghar More Pardesiya,Shreya Ghoshal,3,126,6
+Pyaar Hua Ikraar Hua,Lata Mangeshkar,1,88,5
+Lag Ja Gale,Lata Mangeshkar,1,68,5
+Ajeeb Dastan Hai Yeh,Lata Mangeshkar,1,72,5
+Aap Ki Nazron Ne Samjha,Lata Mangeshkar,1,74,5
+Tere Bina Zindagi Se,Lata Mangeshkar,2,70,4
+Abhi Na Jao Chhod Kar,Mohammed Rafi,1,76,5
+Tujhe Dekha Toh Yeh Jaana,Kumar Sanu,1,84,5
+Yeh Jo Mohabbat Hai,Kishore Kumar,1,80,5
+Roop Tera Mastana,Kishore Kumar,1,96,2
+Aane Wala Pal,Kishore Kumar,2,72,4
+Zindagi Ek Safar,Kishore Kumar,5,120,2
+Mere Sapnon Ki Rani,Kishore Kumar,5,128,6
+Yeh Shaam Mastani,Kishore Kumar,1,88,5
+Musafir Hoon Yaaron,Kishore Kumar,6,92,1
+Dum Maro Dum,Asha Bhosle,6,118,6
+Piya Tu Ab To Aaja,Asha Bhosle,3,126,6
+In Aankhon Ki Masti,Asha Bhosle,1,76,5
+Chura Liya Hai Tumne,Asha Bhosle,1,86,5
+Dil Cheez Kya Hai,Asha Bhosle,6,90,5
+Pardesi Pardesi,Udit Narayan,2,74,4
+Kaho Na Pyaar Hai,Udit Narayan,1,96,2
+Na Tum Jaano Na Hum,Udit Narayan,1,78,5
+Dekha Tujhe Toh,Sonu Nigam,1,82,5
+Sandalia,Sonu Nigam,5,110,2
+Dil To Pagal Hai,Lata Mangeshkar,1,92,5
+Sajdaa,Rahat Fateh Ali Khan,6,80,5
+Afreen Afreen,Rahat Fateh Ali Khan,6,86,5
+Zaroori Tha,Rahat Fateh Ali Khan,2,70,4
+Tere Mast Do Nain,Rahat Fateh Ali Khan,1,76,5
+O Re Piya,Rahat Fateh Ali Khan,6,88,1
+Jiya Dhadak Dhadak,Rahat Fateh Ali Khan,1,80,5
+Teri Deewani,Kailash Kher,6,84,1
+Allah Ke Bande,Kailash Kher,6,92,1
+Saiyyan,Kailash Kher,6,88,1
+Yun Hi Chala Chal,Udit Narayan,6,80,1
+Aashayein,KK,5,98,2
+Yaad Aayega,KK,2,74,4
+Pal,KK,2,72,4
+Tu Hi Meri Shab Hai,KK,1,78,5
+Khuda Jaane,KK,1,84,5
+Alvida,KK,2,68,4
+Aankhon Mein Teri,KK,1,80,5
+Tu Jo Mila,KK,1,76,5
+Zara Sa,KK,1,74,5
+O Meri Jaan,KK,1,78,5
+Tumse Hi,KK,1,80,5
+Dil Ibaadat,KK,1,76,5
+Tadap Tadap Ke,KK,2,64,4
+Tujhe Sochta Hoon,Mohit Chauhan,1,80,5
+Masakali,Mohit Chauhan,5,118,2
+Dooba Dooba Rehta Hoon,Mohit Chauhan,1,76,5
+Ye Dooriyaan,Mohit Chauhan,2,70,4
+Hum Mar Jayenge,Arijit Singh,2,66,4
+Mast Magan,Arijit Singh,1,78,5
+Khairiyat Plus,Arijit Singh,2,74,4
+Apna Bana Le,Arijit Singh,1,82,5
+Jo Tum Mere Ho,Arijit Singh,1,78,5
+Naina,Arijit Singh,6,86,1
+Safar,Arijit Singh,2,72,4
+Kabhi Jo Baadal Barse,Arijit Singh,2,74,4
+Muskurane,Arijit Singh,1,80,5
+Sab Tera,Armaan Malik,1,76,5
+Main Hoon Hero Tera,Armaan Malik,5,116,6
+Hua Hain Aaj Pehli Baar,Armaan Malik,1,84,5
+Bolo Har Har Har,Vishal Dadlani,4,136,3
+Udd Daa Punjab,Diljit Dosanjh,5,130,6
+Ikk Kudi,Diljit Dosanjh,5,108,2
+Do You Know,Diljit Dosanjh,3,128,6
+Proper Patola,Diljit Dosanjh,3,124,6
+Tere Te,Guru Randhawa,3,118,6
+High Rated Gabru,Guru Randhawa,3,126,6
+Lahore,Guru Randhawa,3,120,6
+Ban Ja Rani,Guru Randhawa,3,112,6
+Slowly Slowly,Guru Randhawa,3,116,6
+Ishq Tera,Guru Randhawa,1,88,5
+Naach Meri Rani,Guru Randhawa,3,122,6
+Suit Suit,Guru Randhawa,3,124,6
+Patola,Guru Randhawa,3,130,6
+Radio,Guru Randhawa,3,118,6
+Duniyaa,Akhil,1,80,5
+Kya Baat Ay,Harrdy Sandhu,3,118,6
+Bijlee Bijlee,Harrdy Sandhu,3,128,6
+Naah,Harrdy Sandhu,3,122,6
+Hornn Blow,Harrdy Sandhu,3,120,6
+Backbone,Harrdy Sandhu,3,116,6
+Akh Lad Jaave,Badshah,3,120,6
+Paagal,Badshah,3,126,6
+Genda Phool,Badshah,3,118,6
+Abhi Toh Party,Badshah,3,132,6
+DJ Wale Babu,Badshah,3,128,6
+Saturday Saturday,Badshah,3,122,6
+Mercy,Badshah,3,124,6
+Kala Chashma,Badshah,3,130,6
+Kar Gayi Chull,Badshah,3,126,6
+Party With The Bhoothnath,Yo Yo Honey Singh,3,132,6
+Blue Hai Paani,Yo Yo Honey Singh,3,128,6
+Lungi Dance,Yo Yo Honey Singh,3,124,6
+Desi Kalakaar,Yo Yo Honey Singh,3,120,6
+Angreji Beat,Gippy Grewal,3,122,6
+Amplifier,Imran Khan,3,116,6
+Satisfya,Imran Khan,3,120,6
+Aaya Na Tu,Arjun Kanungo,2,76,4
+Fursat,Farhan Akhtar,2,74,4
+Dooriyan,Mohit Chauhan,2,70,4
+Socha Hai,Farhan Akhtar,1,80,5
+Rock On,Farhan Akhtar,5,132,6
+Pichle Saat Dinon,Farhan Akhtar,5,126,6
+Senorita,Farhan Akhtar,3,116,6
+Zinda,Lucky Ali,5,112,2
+O Sanam,Lucky Ali,1,80,5
+Aa Bhi Ja,Lucky Ali,1,76,5
+Safarnama,Lucky Ali,6,84,1
+Ik Junoon,Vishal-Shekhar,5,122,6
+Zaalima,Arijit Singh,6,88,5
+Tum Ho,Mohit Chauhan,1,78,5
+Teri Yaad,Mohit Chauhan,2,72,4
+Chahiye Thoda Pyaar,Jubin Nautiyal,1,82,5
+Lut Gaye,Jubin Nautiyal,1,86,5
+Tum Aaye,Jubin Nautiyal,1,80,5
+Bewafa Tera Masoom Chehra,Jubin Nautiyal,2,68,4
+Dil Galti Kar Baitha Hai,Jubin Nautiyal,2,72,4
+Phir Na Milen Kabhi,Jubin Nautiyal,2,74,4
+Tanha Tanha,Vishal Mishra,2,70,4
+Pasoori,Ali Sethi,6,96,5
+Kahani,Vishal Mishra,1,76,5
+Pyaar Hota Kayi Baar Hai,Vishal Mishra,1,80,5
+Teri Aankhon Mein,Darshan Raval,1,78,5
+Ik Pal Ka Jeena,Hrithik Roshan,3,124,6
+Ek Pal Ka Jeena,Lucky Ali,3,120,6
+Radha,AR Rahman,3,118,6
+Dil Bechara Title,AR Rahman,5,104,2
+Lukka Chuppi,AR Rahman,1,76,5
+Jai Jai Shivshankar,Vishal-Shekhar,5,136,6
+Ghungroo,Arijit Singh,3,128,6
+Mere Dholna Sun,Shreya Ghoshal,4,82,1
+Dola Re Dola,Shreya Ghoshal,3,132,6
+Bairi Piya,Shreya Ghoshal,6,88,1
+Suraj Hua Maddham,Sonu Nigam,1,74,5
+Bole Chudiyan,Udit Narayan,3,120,6
+Kabhi Khushi Kabhi Gham,Lata Mangeshkar,1,78,5
+Yeh Ladka Hai Allah,Udit Narayan,3,122,6
+Saans,Shreya Ghoshal,1,76,5
+Abhi Mujh Mein Kahin,Sonu Nigam,2,70,4
+Prem Ratan Dhan Payo,Shreya Ghoshal,4,96,2
+Deva Shree Ganesha,Shankar Mahadevan,4,132,3
+Ganpati Bappa,Shankar Mahadevan,4,128,3
+Morya Re,Shankar Mahadevan,4,120,3
+Wah Wah Ramji,Udit Narayan,4,116,3

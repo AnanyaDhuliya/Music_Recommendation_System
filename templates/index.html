@@ -1,0 +1,169 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raagify — Bollywood Music Recommender</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+
+  <!-- ══ SIDEBAR ══════════════════════════════════════════ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-logo">
+      <span class="logo-icon">♫</span>
+      <span class="logo-text">Raagify</span>
+    </div>
+    <nav class="sidebar-nav">
+      <button class="nav-btn active" data-section="discover" onclick="showSection('discover',this)">
+        <span class="nav-icon">🔍</span> Discover
+      </button>
+      <button class="nav-btn" data-section="browse" onclick="showSection('browse',this)">
+        <span class="nav-icon">🎵</span> Browse Songs
+      </button>
+      <button class="nav-btn" data-section="genres" onclick="showSection('genres',this)">
+        <span class="nav-icon">🎸</span> Genres
+      </button>
+      <button class="nav-btn" data-section="moods" onclick="showSection('moods',this)">
+        <span class="nav-icon">✨</span> Moods
+      </button>
+    </nav>
+    <div class="sidebar-stats">
+      <div class="stat-item"><span class="stat-num" id="stat-songs">—</span><span class="stat-label">Songs</span></div>
+      <div class="stat-item"><span class="stat-num" id="stat-artists">—</span><span class="stat-label">Artists</span></div>
+      <div class="stat-item"><span class="stat-num" id="stat-genres">—</span><span class="stat-label">Genres</span></div>
+    </div>
+  </aside>
+
+  <!-- ══ MAIN ═════════════════════════════════════════════ -->
+  <main class="main">
+
+    <!-- Topbar -->
+    <header class="topbar">
+      <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+      <div class="topbar-search">
+        <span>🔍</span>
+        <input type="text" id="globalSearch" placeholder="Search any song or artist…" autocomplete="off" />
+      </div>
+      <div class="topbar-tag">Bollywood 🇮🇳</div>
+    </header>
+
+    <!-- ── DISCOVER ───────────────────────────────────────── -->
+    <section class="section active" id="section-discover">
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Find Your Next<br /><span class="gradient-text">Favourite Song</span></h1>
+          <p>Type a song you love and discover similar Bollywood tracks instantly.</p>
+        </div>
+        <div class="hero-art">
+          <div class="vinyl" id="vinyl"><div class="vinyl-inner"></div></div>
+        </div>
+      </div>
+
+      <div class="search-card">
+        <div class="search-row">
+          <input type="text" id="songInput" placeholder="e.g. Gehra Hua, Kesariya, Tum Hi Ho…" autocomplete="off" />
+          <button class="btn-primary" id="recommendBtn">Get Recommendations</button>
+        </div>
+        <ul class="autocomplete-list hidden" id="autocomplete-list"></ul>
+      </div>
+
+      <div class="alert alert-error hidden" id="error-msg"></div>
+
+      <div class="loader hidden" id="loader">
+        <div class="loader-bars"><span></span><span></span><span></span><span></span><span></span></div>
+        <p>Finding similar songs…</p>
+      </div>
+
+      <div class="results-area hidden" id="results-area">
+        <!-- Seed song hero banner -->
+        <div class="seed-banner" id="seed-banner">
+          <div class="seed-bg" id="seed-bg"></div>
+          <div class="seed-content">
+            <img class="seed-art" id="seed-art" src="" alt="" onerror="this.style.display='none'" />
+            <div class="seed-info">
+              <p class="seed-label">Now Recommending Based On</p>
+              <h2 id="seed-title"></h2>
+              <p id="seed-artist-name"></p>
+              <div class="seed-badges" id="seed-badges"></div>
+              <div class="seed-actions">
+                <button class="btn-play" id="seed-play-btn" onclick="toggleSeedPreview()" style="display:none">
+                  ▶ Play Preview
+                </button>
+                <a class="btn-itunes" id="seed-itunes-link" href="#" target="_blank" style="display:none">
+                  🎵 Open in iTunes
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="section-heading" style="margin-top:28px">Similar Songs</h2>
+        <div class="rec-grid" id="rec-grid"></div>
+      </div>
+    </section>
+
+    <!-- ── BROWSE ─────────────────────────────────────────── -->
+    <section class="section" id="section-browse">
+      <div class="section-header">
+        <h2>All Songs</h2>
+        <div class="filter-row">
+          <select id="browseGenreFilter" onchange="loadBrowse()"><option value="">All Genres</option></select>
+          <select id="browseMoodFilter"  onchange="loadBrowse()"><option value="">All Moods</option></select>
+        </div>
+      </div>
+      <div class="song-list" id="browse-list"></div>
+    </section>
+
+    <!-- ── GENRES ─────────────────────────────────────────── -->
+    <section class="section" id="section-genres">
+      <h2 class="section-heading">Browse by Genre</h2>
+      <div class="genre-grid" id="genre-grid"></div>
+    </section>
+
+    <!-- ── MOODS ──────────────────────────────────────────── -->
+    <section class="section" id="section-moods">
+      <h2 class="section-heading">Browse by Mood</h2>
+      <div class="mood-grid" id="mood-grid"></div>
+      <div class="mood-songs hidden" id="mood-songs-area">
+        <h3 id="mood-songs-title"></h3>
+        <div class="song-list" id="mood-song-list"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global autocomplete -->
+  <ul class="global-autocomplete hidden" id="global-autocomplete"></ul>
+
+  <!-- ══ MINI PLAYER (bottom bar) ═════════════════════════ -->
+  <div class="mini-player hidden" id="mini-player">
+    <div class="mp-art-wrap">
+      <img class="mp-art" id="mp-art" src="" alt="" />
+      <div class="mp-art-fallback" id="mp-art-fallback">♫</div>
+    </div>
+    <div class="mp-info">
+      <div class="mp-title" id="mp-title">—</div>
+      <div class="mp-artist" id="mp-artist">—</div>
+    </div>
+    <div class="mp-controls">
+      <button class="mp-btn" id="mp-play-btn" onclick="mpToggle()">▶</button>
+    </div>
+    <div class="mp-progress-wrap">
+      <div class="mp-progress-bar" id="mp-progress-bar">
+        <div class="mp-progress-fill" id="mp-progress-fill"></div>
+      </div>
+      <span class="mp-time" id="mp-time">0:00 / 0:30</span>
+    </div>
+    <button class="mp-close" onclick="mpClose()">✕</button>
+    <audio id="mp-audio" preload="none"></audio>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
